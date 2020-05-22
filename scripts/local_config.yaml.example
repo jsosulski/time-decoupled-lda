@@ -1,0 +1,3 @@
+benchmark_meta_name: 'covariance_benchmark'
+results_root: '/home/<USER>/bci_data/results'
+benchmark_extent: 'best_only'  # use 'full' to evaluate all hyperparameters

@@ -1,0 +1,74 @@
+default:
+  data_preprocessing:
+    sampling_rate: 100
+    baseline: ~  # !!python/tuple [-0.2, 0]
+    reject_uv: ~
+    fmin: 0.5
+    fmax:  16
+  fallback_modality: 'tone_oddball'
+  tone_oddball:
+    feature_preprocessing:
+      jumping_means_ival: # this averages samples in each of the given ivals
+        standard:
+          ival:
+            - [0.10, 0.169]
+            - [0.17, 0.229]
+            - [0.23, 0.299]
+            - [0.30, 0.409]
+            - [0.41, 0.499]
+          D: 5
+        numerous:
+          ival:
+            - [0.10, 0.139]
+            - [0.14, 0.169]
+            - [0.17, 0.199]
+            - [0.20, 0.229]
+            - [0.23, 0.269]
+            - [0.27, 0.299]
+            - [0.30, 0.349]
+            - [0.35, 0.409]
+            - [0.41, 0.449]
+            - [0.45, 0.499]
+          D: 10
+        few:
+          ival:
+            - [0.10, 0.179]
+            - [0.18, 0.279]
+          D: 2
+      select_ival: # this selects all samples in the chosen ival
+        all:
+          ival: [0.1, 0.499]
+          D: 40
+  word_oddball:
+    feature_preprocessing:
+      jumping_means_ival:
+        standard:
+          ival:
+            - [0.18, 0.259]
+            - [0.26, 0.399]
+            - [0.40, 0.559]
+            - [0.56, 0.679]
+            - [0.68, 0.909]
+          D: 5
+        numerous:
+          ival:
+            - [0.18, 0.229]
+            - [0.23, 0.289]
+            - [0.29, 0.399]
+            - [0.40, 0.479]
+            - [0.48, 0.559]
+            - [0.56, 0.609]
+            - [0.61, 0.679]
+            - [0.68, 0.749]
+            - [0.75, 0.819]
+            - [0.82, 0.909]
+          D: 10
+        few:
+          ival:
+            - [0.40, 0.559]
+            - [0.65, 0.909]
+          D: 2
+      select_ival:
+        all:
+          ival: [0.18, 0.909]
+          D: 73
