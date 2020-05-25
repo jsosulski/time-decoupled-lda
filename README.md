@@ -128,10 +128,8 @@ Sometimes you need to install additional system packages on your Ubuntu 18.04 in
 
 Required:
 
--`apt install python3-venv`
--`apt install python3-tk`
-
-The latter could probably be refactored out.
+- `apt install python3-venv`
+- `apt install python3-tk`
 
 If you want to use the makefile:
--`apt install make`
+- `apt install make`

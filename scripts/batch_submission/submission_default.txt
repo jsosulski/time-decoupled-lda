@@ -1,0 +1,18 @@
+epfl
+bnci_1
+bnci_als
+bnci_2
+braininvaders
+spot_single 0
+spot_single 1
+spot_single 2
+spot_single 3
+spot_single 4
+spot_single 5
+spot_single 6
+spot_single 7
+spot_single 8
+spot_single 9
+spot_single 10
+spot_single 11
+spot_single 12
