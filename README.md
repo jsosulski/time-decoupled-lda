@@ -1,11 +1,12 @@
 # Time-decoupling in covariance matrices for LDA for ERP classification
 
-This repository contains the time-decoupling method as described in [1]. For details, please refer to the paper available [here](todourl) TODO. The implementation can be used as a drop-in replacement for an sklearn classifier. Additionally, the benchmark results for the publicly available datasets can be reproduced in this repository.
+This repository contains the time-decoupling method as described in [1]. For details, please refer to the paper available [here](
+https://rdcu.be/ccd0g). The implementation can be used as a drop-in replacement for an sklearn classifier. Additionally, the benchmark results for the publicly available datasets can be reproduced in this repository.
 
 The results in [1] were produced using python 3.6.9 on an Ubuntu 18.04 installation.
 
 ---
-[1] Jan Sosulski, Jan-Philip Kemmer, Michael Tangermann: Covariance Matrices Derived from Tiny Training Datasets for the Classification of Event-Related Potentials with Linear Discriminant Analysis. *In submission.*
+[1] Sosulski, J., Kemmer, JP. & Tangermann, M. Improving Covariance Matrices Derived from Tiny Training Datasets for the Classification of Event-Related Potentials with Linear Discriminant Analysis. Neuroinform (2020). https://doi.org/10.1007/s12021-020-09501-8
 
 ## Installation (Ubuntu)
 
