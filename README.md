@@ -1,5 +1,7 @@
 # Time-decoupling in covariance matrices for LDA for ERP classification
 
+### If you are looking for exact reproducibility of our paper, please refer to the [Neuroinformatics submission](https://github.com/jsosulski/time-decoupled-lda/tree/neuroinformatics_submission) tag
+
 This repository contains the time-decoupling method as described in [1]. For details, please refer to the paper available [here](
 https://rdcu.be/ccd0g). The implementation can be used as a drop-in replacement for an sklearn classifier. Additionally, the benchmark results for the publicly available datasets can be reproduced in this repository.
 
