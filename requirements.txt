@@ -9,7 +9,7 @@ h5py==2.10.0
 humanfriendly==4.18
 idna==2.8
 imagesize==1.1.0
-Jinja2==2.10.1
+Jinja2==2.11.3
 joblib==0.14.0
 kiwisolver==1.0.1
 m2r==0.2.1
