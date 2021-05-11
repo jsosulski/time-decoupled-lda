@@ -65,7 +65,7 @@ else:  # check whether args have format [subject, subject, ...] or [subject:sess
 print(f'Subjects: {subjects}')
 print(f'Sessions: {sessions}')
 
-start_timestamp_as_str = dt.now().replace(microsecond=0).isoformat()
+start_timestamp_as_str = dt.now().replace(microsecond=0).isoformat().replace(":", "-")
 
 warnings.simplefilter(action='ignore', category=RuntimeWarning)
 warnings.simplefilter(action='ignore', category=UserWarning)
