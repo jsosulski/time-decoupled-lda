@@ -1,5 +1,7 @@
 # Time-decoupling in covariance matrices for LDA for ERP classification
 
+**Disclaimer:** consider using [ToeplitzLDA](https://github.com/jsosulski/toeplitzlda), which reduces time and memory complexity, and in addition, is more stable and tends to perform even better.
+
 ### If you are looking for exact reproducibility of our paper, please refer to the [Neuroinformatics submission](https://github.com/jsosulski/time-decoupled-lda/tree/neuroinformatics_submission) tag
 
 This repository contains the time-decoupling method as described in [1]. For details, please refer to the paper available [here](
