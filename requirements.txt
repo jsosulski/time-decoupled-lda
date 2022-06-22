@@ -18,7 +18,7 @@ matplotlib==3.0.3
 mistune==0.8.4
 -e git://github.com/mne-tools/mne-python.git@67d03cc0d0554b0d939ddd8ec2d2665add84d4ed#egg=mne
 -e git://github.com/jsosulski/moabb.git@914ca448bb4f5051ca3eef823b819bc902d609f6#egg=moabb
-numpy==1.16.2
+numpy==1.22.0
 numpydoc==0.9.1
 packaging==19.2
 pandas==0.24.1
